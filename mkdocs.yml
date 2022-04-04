@@ -24,13 +24,13 @@ nav:
       - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
   - 'Recommendations':
     - 'Privacy Tools': 'tools.md'
+    - 'Browsers':
+      - 'Web Browsers': 'browsers.md'
     - 'Operating Systems':
       - 'Android': 'android.md'
       - 'Linux Desktop': 'linux-desktop.md'
       - 'QubesOS': 'qubes.md'
       - 'Router Firmware': 'router.md'
-    - 'Browsers':
-      - 'Web Browsers': 'browsers.md'
     - 'Providers':
       - 'Cloud Storage': 'cloud.md'
       - 'DNS Servers': 'dns.md'
@@ -53,6 +53,9 @@ nav:
       - 'Video Streaming': 'video-streaming.md'
   - 'Blog':
     - 'Blog Index': 'blog.md'
+    - '2022':
+      - 'April':
+        - '"Move Fast and Break Things"': 'blog/2022/04/04/move-fast-and-break-things.md'
     - '2021':
       - 'December':
         - 'Firefox Privacy: 2021 Update': 'blog/2021/12/01/firefox-privacy-2021-update.md'
@@ -80,7 +83,6 @@ theme:
   features:
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -131,5 +133,3 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
