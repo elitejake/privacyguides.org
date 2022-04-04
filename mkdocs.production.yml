@@ -1,0 +1,8 @@
+INHERIT: mkdocs.yml
+site_url: "https://www.privacyguides.org/"
+plugins:
+  - search
+  - privacy:
+      externals_exclude:
+        - cdn.jsdelivr.net/npm/mathjax@3/* 
+        - giscus.app/*
