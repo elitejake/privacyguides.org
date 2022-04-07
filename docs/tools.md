@@ -1,9 +1,10 @@
 ---
-title: Privacy Tools
+title: Recommended Privacy Tools
 icon: material/tools
 hide:
-    - toc
+  - toc
 ---
+
 If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your use case.
 
 If you want assistance figuring out the best privacy tools and alternative programs for your workload/use-case, start a discussion in our [Reddit](https://www.reddit.com/r/privacyguides) or [Matrix](https://matrix.to/#/#privacyguides:matrix.org) communities!
@@ -21,17 +22,19 @@ For your convenience, everything we recommend is listed below with a link to the
 
 </div>
 
-**Browser extensions:**
+**Browser Extensions:**
 
 <div class="grid cards" markdown>
 
 - ![uBlock Origin logo](/assets/img/browsers/ublock_origin.svg){ .twemoji } [uBlock Origin](https://github.com/gorhill/uBlock)
 - ![AdGuard logo](/assets/img/browsers/adguard.svg){ .twemoji } [AdGuard for Safari](https://adguard.com/en/adguard-safari/overview.html)
-- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read](https://tosdr.org/)
+- ![ToS;DR logo](/assets/img/browsers/terms_of_service_didnt_read.svg){ .twemoji } [Terms of Service; Didn't Read\*](https://tosdr.org/)
 
 </div>
 
 [Learn more...](browsers.md)
+
+\* We do not recommend installing ToS;DR as a browser extension. The same information is provided on their website.
 
 ## Operating Systems
 
@@ -53,7 +56,7 @@ For your convenience, everything we recommend is listed below with a link to the
 - ![Orbot logo](/assets/img/android/orbot.svg){ .twemoji } [Orbot (Tor Proxy)](https://orbot.app/)
 - ![Shelter logo](/assets/img/android/shelter.svg){ .twemoji } [Shelter (Work Profiles)](https://gitea.angry.im/PeterCxy/Shelter)
 - ![Auditor logo](/assets/img/android/auditor.svg#only-light){ .twemoji }![GrapheneOS logo](/assets/img/android/auditor-dark.svg#only-dark){ .twemoji } [Auditor (Supported Devices)](https://attestation.app/)
-- ![Secure Camera logo](/assets/img/android/secure_camera.svg#only-light){ .twemoji }![GrapheneOS logo](/assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [GrapheneOS](https://github.com/GrapheneOS/Camera)
+- ![Secure Camera logo](/assets/img/android/secure_camera.svg#only-light){ .twemoji }![Secure Camera logo](/assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji } [Secure Camera](https://github.com/GrapheneOS/Camera)
 - ![Secure PDF Viewer logo](/assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji }![GrapheneOS logo](/assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji } [Secure PDF Viewer](https://github.com/GrapheneOS/PdfViewer)
 - ![PrivacyBlur logo](/assets/img/android/privacyblur.svg){ .twemoji } [PrivacyBlur](https://privacyblur.app/)
 
@@ -72,7 +75,7 @@ For your convenience, everything we recommend is listed below with a link to the
 - ![nixOS logo](/assets/img/linux-desktop/nixos.svg){ .twemoji } [NixOS](https://nixos.org/)
 - ![Whonix logo](/assets/img/linux-desktop/whonix.svg){ .twemoji } [Whonix (Tor)](https://www.whonix.org/)
 - ![Tails logo](/assets/img/linux-desktop/tails.svg){ .twemoji } [Tails (Live Boot)](https://tails.boum.org/)
-- ![Qubes OS logo](/assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)*](https://www.qubes-os.org/)
+- ![Qubes OS logo](/assets/img/qubes/qubes_os.svg){ .twemoji } [Qubes OS (Xen VM Distribution)\*](https://www.qubes-os.org/)
 
 </div>
 
@@ -114,12 +117,30 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 <div class="grid cards" markdown>
 
-- [ProtonMail](https://protonmail.com/)
-- [Mailbox.org](https://mailbox.org/)
-- [Disroot](https://disroot.org/)
-- [Tutanota](https://tutanota.com/)
-- [StartMail](https://startmail.com/)
-- [CTemplar](https://ctemplar.com/)
+- ![ProtonMail logo](/assets/img/email/mini/protonmail.svg){ .twemoji } [ProtonMail](https://protonmail.com/)
+- ![Mailbox.org logo](/assets/img/email/mini/mailboxorg.svg){ .twemoji } [Mailbox.org](https://mailbox.org/)
+- ![Disroot logo](/assets/img/email/mini/disroot.svg#only-light){ .twemoji }![Disroot logo](/assets/img/email/mini/disroot-dark.svg#only-dark){ .twemoji } [Disroot](https://disroot.org/)
+- ![Tutanota logo](/assets/img/email/mini/tutanota.svg){ .twemoji } [Tutanota](https://tutanota.com/)
+- ![StartMail logo](/assets/img/email/mini/startmail.svg#only-light){ .twemoji }![StartMail logo](/assets/img/email/mini/startmail-dark.svg#only-dark){ .twemoji } [StartMail](https://startmail.com/)
+- ![CTemplar logo](/assets/img/email/mini/ctemplar.svg#only-light){ .twemoji }![CTemplar logo](/assets/img/email/mini/ctemplar-dark.svg#only-dark){ .twemoji } [CTemplar](https://ctemplar.com/)
+
+</div>
+
+**Email Cloaking Services:**
+
+<div class="grid cards" markdown>
+
+- ![AnonAddy logo](/assets/img/email/mini/anonaddy.svg#only-light){ .twemoji }![AnonAddy logo](/assets/img/email/mini/anonaddy-dark.svg#only-dark){ .twemoji } [AnonAddy](https://anonaddy.com/)
+- ![SimpleLogin logo](/assets/img/email/mini/simplelogin.svg){ .twemoji } [SimpleLogin](https://simplelogin.io/)
+
+</div>
+
+**Self-Hosting Email:**
+
+<div class="grid cards" markdown>
+
+- ![Mail-in-a-Box logo](/assets/img/email/mail-in-a-box.svg){ .twemoji } [Mail-in-a-Box](https://mailinabox.email/)
+- ![Mailcow logo](/assets/img/email/mailcow.svg){ .twemoji } [Mailcow](https://mailcow.email/)
 
 </div>
 
@@ -131,7 +152,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 - ![DuckDuckGo logo](/assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](https://duckduckgo.com/)
 - ![Startpage logo](/assets/img/search-engines/startpage.svg){ .twemoji } [Startpage](https://www.startpage.com/)
-- [Mojeek](https://www.mojeek.com/)
+- ![Mojeek logo](/assets/img/search-engines//mini/mojeek.svg){ .twemoji } [Mojeek](https://www.mojeek.com/)
 - ![Searx logo](/assets/img/search-engines/searx.svg){ .twemoji } [Searx](https://searx.me/)
 
 </div>
@@ -143,7 +164,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 <div class="grid cards" markdown>
 
 - ![Mastodon logo](/assets/img/social-networks/mastodon.svg){ .twemoji } [Mastodon](https://joinmastodon.org/)
-- ![diaspora logo](/assets/img/social-networks/diaspora.svg){ .twemoji } [diaspora*](https://diasporafoundation.org/)
+- ![diaspora logo](/assets/img/social-networks/diaspora.svg){ .twemoji } [diaspora\*](https://diasporafoundation.org/)
 - ![Friendica logo](/assets/img/social-networks/friendica.svg){ .twemoji } [Friendica](https://friendi.ca/)
 - ![PixelFed logo](/assets/img/social-networks/pixelfed.svg){ .twemoji } [PixelFed](https://pixelfed.org/)
 - ![Pleroma logo](/assets/img/social-networks/pleroma.svg){ .twemoji } [Pleroma](https://pleroma.social/)
@@ -180,9 +201,9 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 <div class="grid cards" markdown>
 
-- [Mullvad](https://mullvad.net/)
-- [ProtonVPN](https://protonvpn.com/)
-- [IVPN](https://www.ivpn.net/)
+- ![Mullvad logo](/assets/img/vpn/mini/mullvad.svg){ .twemoji } [Mullvad](https://mullvad.net/)
+- ![ProtonVPN logo](/assets/img/vpn/mini/protonvpn.svg){ .twemoji } [ProtonVPN](https://protonvpn.com/)
+- ![IVPN logo](/assets/img/vpn/mini/ivpn.svg){ .twemoji } [IVPN](https://www.ivpn.net/)
 
 </div>
 
@@ -198,7 +219,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 - ![Proton Calendar logo](/assets/img/calendar-contacts/proton-calendar.jpg){ .twemoji } [Proton Calendar (SaaS)](https://calendar.protonmail.com/)
 - ![EteSync logo](/assets/img/calendar-contacts/etesync.svg){ .twemoji } [EteSync](https://www.etesync.com/)
 - ![Tutanota logo](/assets/img/calendar-contacts/nextcloud.svg){ .twemoji } [Nextcloud](https://nextcloud.com/)
-- [DecSync](https://github.com/39aldo39/DecSync)
+- ![DecSync CC logo](/assets/img/calendar-contacts/decsync.svg){ .twemoji } [DecSync](https://github.com/39aldo39/DecSync)
 
 </div>
 
@@ -268,9 +289,8 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 <div class="grid cards" markdown>
 
-- ![OnionShare logo](/assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [Onionshare](https://onionshare.org/)
+- ![OnionShare logo](/assets/img/file-sharing-sync/onionshare.svg){ .twemoji } [OnionShare](https://onionshare.org/)
 - ![Magic Wormhole logo](/assets/img/file-sharing-sync/magic_wormhole.png){ .twemoji } [Magic Wormhole](https://magic-wormhole.readthedocs.io/)
-- ![croc logo](/assets/img/file-sharing-sync/croc.jpg){ .twemoji } [croc](https://schollz.com/blog/croc6)
 - ![FreedomBox logo](/assets/img/file-sharing-sync/freedombox.svg){ .twemoji } [FreedomBox](https://freedombox.org/)
 - ![Syncthing logo](/assets/img/file-sharing-sync/syncthing.svg){ .twemoji } [Syncthing](https://syncthing.net/)
 - ![git-annex logo](/assets/img/file-sharing-sync/gitannex.svg){ .twemoji } [git-annex](https://git-annex.branchable.com/)
@@ -288,7 +308,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 - ![Scrambled Exif logo](/assets/img/metadata-removal/scrambled-exif.svg){ .twemoji } [Scrambled Exif (Android)](https://gitlab.com/juanitobananas/scrambled-exif)
 - ![Imagepipe logo](/assets/img/metadata-removal/imagepipe.svg){ .twemoji } [Imagepipe (Android)](https://codeberg.org/Starfish/Imagepipe)
 - ![Metapho logo](/assets/img/metadata-removal/metapho.jpg){ .twemoji } [Metapho (iOS)](https://zininworks.com/metapho)
-- ![Exiftool logo](/assets/img/metadata-removal/exiftool.png){ .twemoji } [Exiftool (CLI)](https://exiftool.org/)
+- ![ExifTool logo](/assets/img/metadata-removal/exiftool.png){ .twemoji } [ExifTool (CLI)](https://exiftool.org/)
 
 </div>
 
@@ -298,13 +318,13 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 <div class="grid cards" markdown>
 
-- ![KeepassXC logo](/assets/img/password-management/keepassxc.svg){ .twemoji } [KeepassXC](https://keepassxc.org/)
-- ![KeepassDX logo](/assets/img/password-management/keepassdx.svg){ .twemoji } [KeepassDX (Android)](https://www.keepassdx.com/)
+- ![KeePassXC logo](/assets/img/password-management/keepassxc.svg){ .twemoji } [KeePassXC](https://keepassxc.org/)
+- ![KeePassDX logo](/assets/img/password-management/keepassdx.svg){ .twemoji } [KeePassDX (Android)](https://www.keepassdx.com/)
 - ![Bitwarden logo](/assets/img/password-management/bitwarden.svg){ .twemoji } [Bitwarden](https://bitwarden.com/)
 - ![Psono logo](/assets/img/password-management/psono.svg){ .twemoji } [Psono](https://psono.com/)
 - ![Pass logo](/assets/img/password-management/pass.svg){ .twemoji } [pass](https://www.passwordstore.org/)
 - ![gopass logo](/assets/img/password-management/gopass.svg){ .twemoji } [gopass](https://www.gopass.pw/)
-- ![Vaultwarden logo](/assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](/assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [VaultWarden (Bitwarden Server)](https://github.com/dani-garcia/vaultwarden)
+- ![Vaultwarden logo](/assets/img/password-management/vaultwarden.svg#only-light){ .twemoji }![Vaultwarden logo](/assets/img/password-management/vaultwarden-dark.svg#only-dark){ .twemoji } [Vaultwarden (Bitwarden Server)](https://github.com/dani-garcia/vaultwarden)
 
 </div>
 
@@ -357,7 +377,7 @@ We [recommend](dns.md#why-should-i-use-encrypted-dns) a number of encrypted DNS 
 
 - ![FreeTube logo](/assets/img/video-streaming/freetube.svg){ .twemoji } [FreeTube (YouTube, Desktop)](https://freetubeapp.io/)
 - ![LBRY logo](/assets/img/video-streaming/lbry.svg){ .twemoji } [LBRY](https://lbry.com/)
-- ![Newpipe logo](/assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](https://newpipe.net/)
+- ![NewPipe logo](/assets/img//video-streaming/newpipe.svg){ .twemoji } [NewPipe (YouTube, Android)](https://newpipe.net/)
 - ![NewPipe x SponsorBlock logo](/assets/img/video-streaming/newpipe.svg){ .twemoji } [NewPipe x Sponsorblock](https://github.com/polymorphicshade/NewPipe)
 - ![Invidious logo](/assets/img/video-streaming/invidious.svg#only-light){ .twemoji }![Invidious logo](/assets/img/video-streaming/invidious-dark.svg#only-dark){ .twemoji } [Invidious (YouTube, Web)](https://invidious.io/)
 - ![Piped logo](/assets/img/video-streaming/piped.svg){ .twemoji } [Piped (YouTube, Web)](https://piped.kavin.rocks/)

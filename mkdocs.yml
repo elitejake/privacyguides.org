@@ -1,10 +1,15 @@
 site_name: Privacy Guides
 site_description: |
   Massive organizations are monitoring your online activities. Privacy Guides is your central privacy and security resource to protect yourself online.
-copyright: This content was made available by the Privacy Guides team and contributors. <a href="https://github.com/privacyguides/privacyguides">Get involved</a>!
+copyright: |
+  <b>Privacy Guides</b> is a non-profit, socially motivated website that provides information for protecting your data security and privacy.<br>
+  We do not make money from recommending certain products, and we do not utilize affiliate links.<br>
+  This content was made available by the Privacy Guides team and contributors. <a href="https://github.com/privacyguides/privacyguides">Get involved</a>!
 extra:
   generator: false
   social:
+    - icon: fontawesome/brands/mastodon
+      link: https://mastodon.social/@privacyguides
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/privacy_guides
     - icon: fontawesome/brands/github
@@ -18,10 +23,11 @@ edit_uri: edit/main/docs/
 nav:
   - Home: 'index.md'
   - 'Privacy Introduction':
-    - 'Write for us!': 'bounty.md'
     - 'Threat Modeling': 'threat-modeling.md'
+    - 'Technology Basics':
+      - 'DNS': 'technology/dns.md'
     - 'Security Basics':
-      - 'Multi-Factor Authentication': 'multi-factor-authentication.md'
+      - 'Multi-Factor Authentication': 'security/multi-factor-authentication.md'
   - 'Recommendations':
     - 'Privacy Tools': 'tools.md'
     - 'Browsers':
@@ -29,7 +35,7 @@ nav:
     - 'Operating Systems':
       - 'Android': 'android.md'
       - 'Linux Desktop': 'linux-desktop.md'
-      - 'QubesOS': 'qubes.md'
+      - 'Qubes OS': 'qubes.md'
       - 'Router Firmware': 'router.md'
     - 'Providers':
       - 'Cloud Storage': 'cloud.md'
@@ -51,6 +57,11 @@ nav:
       - 'Real-Time Communication': 'real-time-communication.md'
       - 'Self-Contained Networks': 'self-contained-networks.md'
       - 'Video Streaming': 'video-streaming.md'
+  - 'About Us':
+    - 'Privacy Guides': 'about.md'
+    - 'Write for us!': 'about/bounty.md'
+    - 'Notices': 'about/notices.md'
+    - 'Privacy Policy': 'about/privacy-policy.md'
   - 'Blog':
     - 'Blog Index': 'blog.md'
     - '2022':
@@ -63,14 +74,6 @@ nav:
         - 'Virtual Insanity': 'blog/2021/11/01/virtual-insanity.md'
       - 'September':
         - 'Welcome to Privacy Guides': 'blog/2021/09/14/welcome-to-privacy-guides.md'
-    - '2019':
-      - 'November':
-        - 'Firefox Privacy': 'blog/2019/11/09/firefox-privacy.md'
-      - 'October':
-        - 'Choosing a VPN': 'blog/2019/10/30/choosing-a-vpn.md'
-        - 'Understanding VPNs': 'blog/2019/10/05/understanding-vpns.md'
-      - 'August':
-        - 'Self Hosting a Shadowsocks VPN with Outline': 'blog/2019/08/22/self-hosting-shadowsocks-vpn-outline.md'
 
 theme:
   name: material
@@ -97,6 +100,8 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+watch:
+  - theme
 
 plugins:
   - tags
