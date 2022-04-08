@@ -8,7 +8,7 @@ Stay safe and secure online with an encrypted and open-source password manager.
 
 - Always use unique passwords. Don't make yourself a victim of "[credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing)".
 - Store an exported backup of your passwords in an [encrypted container](/encryption) on another storage device. This can be useful if something happens to your device or the service you are using.
-- If possible, store [Time-based one-time password (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password) tokens in a separate [TOTP app](/multi-factor-authentication) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
+- If possible, store [Time-based one-time password (TOTP)](https://en.wikipedia.org/wiki/Time-based_one-time_password) tokens in a separate [TOTP app](/security/multi-factor-authentication/#authenticator-apps) and not your password manager. TOTP codes are generated from a "[shared secret](https://en.wikipedia.org/wiki/Time-based_one-time_password#Security)". If the secret is obtained by an adversary they can generate TOTP values. Typically, mobile platforms have better app isolation and more secure methods for storing sensitive credentials.
 
 ## Local Password Managers
 
@@ -135,21 +135,6 @@ These products are self-hostable synchronization for cloud based password manage
 ## Minimal Password Managers
 
 These products are minimal password managers that can be used within scripting applications.
-
-### Pass
-
-!!! recommendation
-
-    ![Pass logo](/assets/img/password-management/pass.svg){ align=right }
-
-    **Pass** is a bare-bones password store that keeps passwords using [GnuPG](https://gnupg.org) encrypted files inside a simple directory tree residing at `~/.password-store`. It has a simple terminal interface where the user can perform the usual actions, and its functionality can be extended by plugins. It can also be used in scripts without having to input the actual password in plain text.
-
-    [Visit passwordstore.org](https://www.passwordstore.org){ .md-button .md-button--primary }
-
-    **Downloads**
-    - [:fontawesome-brands-apple: macOS](https://www.passwordstore.org)
-    - [:fontawesome-brands-linux: Linux](https://www.passwordstore.org)
-    - [:fontawesome-brands-git: Source](https://git.zx2c4.com/password-store)
 
 ### gopass
 
