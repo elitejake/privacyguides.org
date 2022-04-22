@@ -3,9 +3,6 @@ title: "VPN Services"
 icon: material/vpn
 ---
 
-Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
-
-??? danger "VPNs do not provide anonymity"
 
     Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
@@ -67,97 +64,6 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
     Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, and **cash/local currency** as anonymous forms of payment. They also accept Swish and bank wire transfers.
 
 ??? check "WireGuard Support"
-
-    Mullvad supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)[^1] is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
-
-    Mullvad [recommends](https://mullvad.net/en/help/why-wireguard/) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, whereas Windows users have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app/) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
-
-??? check "IPv6 Support"
-
-    Mullvad supports the future of networking [IPv6](https://en.wikipedia.org/wiki/IPv6). Their network allows users to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support/) as opposed to other providers who block IPv6 connections.
-
-??? check "Remote Port Forwarding"
-
-    Remote [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding) is allowed for users who make one-time payments, and not allowed for accounts with a recurring/subscription-based payment method. This is to prevent Mullvad from being able to identify port users based on stored subscription information. See [Port forwarding with Mullvad VPN](https://mullvad.net/help/port-forwarding-and-mullvad/) for more information.
-
-??? check "Mobile Clients"
-
-    Mullvad has published [App Store](https://apps.apple.com/app/mullvad-vpn/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to use interface as opposed to requiring users to manual configure their WireGuard connections. The mobile client on Android is also available in [F-Droid](https://f-droid.org/packages/net.mullvad.mullvadvpn), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
-
-??? info "Additional Functionality"
-
-    Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers/). They use [ShadowSocks](https://shadowsocks.org/en/index.html) in their ShadowSocks + OpenVPN configuration, making them more resistant against firewalls with [Deep Packet Inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection) trying to block VPNs. Supposedly, [China has to use a different method to block ShadowSocks servers](https://github.com/net4people/bbs/issues/22). Mullvad's website is also accessible via Tor at [o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion).
-
-### ProtonVPN
-
-!!! recommendation
-
-    ![ProtonVPN logo](assets/img/vpn/protonvpn.svg){ align=right }
-
-    **ProtonVPN** is a strong contender in the VPN space, and they have been in operation since 2016. ProtonVPN is based in Switzerland and offers a limited free pricing tier, as well as premium options. They offer a further 14% discount for buying a 2 year subscription.
-
-    **Free** - **Basic Plan USD $48/year** - **Plus Plan USD $96/year**
-
-    [Visit ProtonVPN.com](https://protonvpn.com/){ .md-button .md-button--primary }
-
-??? check "44 Countries"
-
-    ProtonVPN has [servers in 44 countries](https://protonvpn.com/vpn-servers) at the time of writing this page. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
-
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
-??? check "Independently Audited"
-
-    As of January 2020 ProtonVPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in ProtonVPN's Windows, Android, and iOS applications, all of which were "properly fixed" by ProtonVPN before the reports were published. None of the issues identified would have provided an attacker remote access to a user's device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source/).
-
-??? check "Open Source Clients"
-
-    ProtonVPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
-
-??? check "Accepts Cash"
-
-    ProtonVPN, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, and **cash/local currency** as anonymous forms of payment.
-
-??? check "WireGuard Support"
-
-    ProtonVPN mostly supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)[^1] is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
-
-    ProtonVPN [recommends](https://protonvpn.com/blog/wireguard/) the use of WireGuard with their service. On ProtonVPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols/) for the protocol is not present in their Linux app.
-
-??? warning "Remote Port Forwarding"
-
-    ProtonVPN currently only supports remote [port forwarding](https://protonvpn.com/support/port-forwarding/) on Windows, which may impact some applications. Especially Peer-to-Peer applications like Torrent clients.
-
-??? check "Mobile Clients"
-
-    In addition to providing standard OpenVPN configuration files, ProtonVPN has mobile clients for [App Store](https://apps.apple.com/us/app/protonvpn-fast-secure-vpn/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android&hl=en_US) allowing for easy connections to their servers. The mobile client on Android is also available in [F-Droid](https://f-droid.org/en/packages/ch.protonvpn.android), which ensures that it is compiled with [reproducible builds](https://www.f-droid.org/en/2019/05/05/trust-privacy-and-free-software.html).
-
-??? info "Additional Functionality"
-
-    ProtonVPN have their own servers and datacenters in Switzerland, Iceland and Sweden. They offer adblocking and known malware domains blocking with their DNS service. Additionally, ProtonVPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](https://www.torproject.org/) for this purpose.
-
-### IVPN
-
-!!! recommendation
-
-    ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
-
-    **IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar.
-
-    **Standard USD $60/year** - **Pro USD $100/year**
-
-    [Visit IVPN.net](https://www.ivpn.net/){ .md-button .md-button--primary }
-
-??? check "32 Countries"
-
-    IVPN has [servers in 32 countries](https://www.ivpn.net/server-locations) at the time of writing this page. Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (less hops) to the destination.
-
-    We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
-
-??? check "Independently Audited"
-
-    IVPN has undergone a [no-logging audit from Cure53](https://cure53.de/audit-report_ivpn.pdf) which concluded in agreement with IVPN's no-logging claim. IVPN has also completed a [comprehensive pentest report Cure53](https://cure53.de/summary-report_ivpn_2019.pdf) in January 2020. IVPN has also said they plan to have [annual reports](https://www.ivpn.net/blog/independent-security-audit-concluded) in the future.
-
 ??? check "Open Source Clients"
 
     As of Feburary 2020 [IVPN applications are now open source](https://www.ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
@@ -168,7 +74,7 @@ Find a no-logging VPN operator who isn’t out to sell or read your web traffic.
 
 ??? check "WireGuard Support"
 
-    IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com)[^1] is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
+    IVPN supports the WireGuard® protocol. [WireGuard](https://www.wireguard.com) is a newer protocol that utilizes state-of-the-art [cryptography](https://www.wireguard.com/protocol/). Additionally, WireGuard aims to be simpler and more performant.
 
     IVPN [recommends](https://www.ivpn.net/wireguard/) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://www.wireguard.com/install/).
 
@@ -352,7 +258,6 @@ For use cases like these, or if you have another compelling reason, the VPN prov
 5. [IVPN Privacy Guides](https://www.ivpn.net/privacy-guides)
 6. ["Do I need a VPN?"](https://www.doineedavpn.com), a tool developed by IVPN to challenge aggressive VPN marketing and help individuals decide if a VPN is right for them.
 
-[^1]: "WireGuard" and the "WireGuard" logo are registered trademarks of Jason A. Donenfeld.
 
 ## Related VPN information
 
