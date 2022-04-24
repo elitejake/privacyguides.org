@@ -6,8 +6,11 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = {path = "./mkdocs-material"}
+mkdocs-static-i18n = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
 
 [dev-packages]
+scour = "*"
 
 [requires]
 python_version = "3.8"
