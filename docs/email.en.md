@@ -31,7 +31,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Free**
 
-    [Visit ProtonMail.com](https://protonmail.com){ .md-button .md-button--primary }
+    [Website](https://protonmail.com){ .md-button .md-button--primary }
 
 ??? check "Custom Domains and Aliases"
 
@@ -73,7 +73,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **EUR €12/year**
 
-    [Visit Mailbox.org](https://mailbox.org){ .md-button .md-button--primary }
+    [Website](https://mailbox.org){ .md-button .md-button--primary }
 
 ??? check "Custom Domains and Aliases"
 
@@ -118,7 +118,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Free**
 
-    [Visit Disroot.org](https://disroot.org){ .md-button .md-button--primary }
+    [Website](https://disroot.org){ .md-button .md-button--primary }
 
 ??? check "Custom Domains and Aliases"
 
@@ -161,7 +161,7 @@ Find a secure email provider that will keep your privacy in mind. Don’t settle
 
     **Free**
 
-    [Visit Tutanota.com](https://tutanota.com){ .md-button .md-button--primary }
+    [Website](https://tutanota.com){ .md-button .md-button--primary }
 
 Tutanota [doesn't allow](https://tutanota.com/faq/#imap) the use of third-party [email clients](email-clients.md). Tutanota has no plans pull email from [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) using the IMAP protocol. [Email import](https://github.com/tutao/tutanota/issues/630) is currently not possible.
 
@@ -212,7 +212,7 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 
     **USD $59.95/year**
 
-    [Visit StartMail.com](https://startmail.com/){ .md-button .md-button--primary }
+    [Website](https://startmail.com/){ .md-button .md-button--primary }
 
 ??? check "Custom Domains and Aliases"
 
@@ -243,53 +243,6 @@ Tutanota is working on a [desktop client](https://tutanota.com/blog/posts/deskto
 ??? info "Additional Functionality"
 
     StartMail allows for proxying of images within emails. If a user allows the remote image to be loaded, the sender won't know what the user's IP address is.
-
-### CTemplar
-
-!!! recommendation
-
-    ![CTemplar Logo](assets/img/email/ctemplar.svg#only-light){ align=right }
-    ![CTemplar Logo](assets/img/email/ctemplar-dark.svg#only-dark){ align=right }
-
-    **CTemplar** is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. CTemplar has been in operation since **2018** and is run from Iceland. Paid accounts start with 5GB. They offer free accounts by [invitation](https://ctemplar.com/email-creation-restriction/).
-
-    **USD $96/year**
-
-    [Visit CTemplar.com](https://ctemplar.com){ .md-button .md-button--primary }
-
-??? check "Custom Domains and Aliases"
-
-    Paid accounts can use [Custom Domains](https://ctemplar.com/help/answer/add-a-domain/) and [aliases](https://ctemplar.com/help/answer/how-to-create-aliases/).
-
-??? check "Private Payment Methods"
-
-    CTemplar [payment options](https://ctemplar.com/help/answer/payment-options/) include Credit cards via Stripe, Bitcoin and Monero.
-
-??? check "Account Security"
-
-    CTemplar supports TOTP two factor authentication [for webmail only](https://ctemplar.com/help/answer/setting-up-two-factor-authentication-2fa/). They do not allow U2F security key authentication.
-
-??? check "Data Security"
-
-    CTemplar has [zero access encryption at rest](https://ctemplar.com/help/answer/what-encryption-method-is-used/), using PGP. They support [protected headers](https://datatracker.ietf.org/doc/html/draft-autocrypt-lamps-protected-headers-02/) and therefore there is [subject encryption](https://ctemplar.com/help/answer/subject-encryption/).
-
-    CTemplar supports importing [contacts](https://ctemplar.com/help/answer/importing-contacts/) and [contacts are encrypted](https://ctemplar.com/help/answer/contact-encryption/) at rest however, they are only accessible in the webmail and apps.
-
-??? check "Email Encryption"
-
-    CTemplar has [integrated encryption](https://ctemplar.com/help/answer/how-does-encryption-decryption-work-in-ctemplar/) in their webmail, which simplifies sending messages to users with public OpenPGP keys.
-
-??? warning ".onion Service"
-
-    CTemplar's .onion service [ctemplarpizuduxk3fkwrieizstx33kg5chlvrh37nz73pv5smsvl6ad.onion](http://ctemplarpizuduxk3fkwrieizstx33kg5chlvrh37nz73pv5smsvl6ad.onion /) is [currently disabled](https://twitter.com/RealCTemplar/status/1458775445202157570) for webmail access, due to a Tor Browser [bug](https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/32865).
-
-??? info "Additional Functionality"
-
-    CTemplar has a [dead man timer](https://ctemplar.com/help/answer/setting-up-a-dead-mans-timer/) feature that will automatically send a specific message that you've set after a given period of time.
-
-    CTemplar also has a feature that allows users verify [checksums](https://ctemplar.com/ctemplar-checksum-implementation/) of production pages with a public copy on Github.
-
-    Electron clients exist for Windows, Mac and Linux. Official clients also exist for iOS and Android ([including F-Droid](https://f-droid.org/en/packages/com.ctemplar.app.fdroid).) All of these clients are [open source](https://github.com/orgs/CTemplar/repositories).
 
 ## Our Criteria
 
