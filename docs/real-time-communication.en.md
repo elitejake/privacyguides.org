@@ -14,7 +14,7 @@ icon: material/chat-processing
 
     All communications are E2EE. Contact lists are encrypted using your login PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts who add you.
 
-    [Homepage](https://signal.org/){ .md-button .md-button--primary }
+    [Homepage](https://signal.org/){ .md-button .md-button--primary } [Privacy Policy](https://signal.org/legal/#privacy-policy){ .md-button }
 
     ??? downloads
 
@@ -29,7 +29,7 @@ Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-
 
 Signal requires your phone number as a personal identifier.
 
-[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for users on your contact list but can be enabled for all recipients with the increased risk of receiving spam.
+[Sealed Sender](https://signal.org/blog/sealed-sender/) is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
 The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs/).
 
@@ -43,13 +43,14 @@ The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) 
 
     Messages and files shared in private rooms (those which require an invite) are by default E2EE as are 1 to 1 voice and video calls.
 
-    [Website](https://element.io/){ .md-button .md-button--primary }
+    [Website](https://element.io/){ .md-button .md-button--primary } [Privacy Policy](https://element.io/privacy){ .md-button }
 
     ??? downloads
 
         - [:fontawesome-brands-windows: Windows](https://element.io/get-started)
         - [:fontawesome-brands-apple: macOS](https://element.io/get-started)
         - [:fontawesome-brands-linux: Linux](https://element.io/get-started)
+        - [:octicons-browser-16: Browser](https://app.element.io)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
         - [:pg-f-droid: F-Droid](https://f-droid.org/packages/im.vector.app/)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/vector/id1083446067)
@@ -71,7 +72,7 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
     **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works/) to other clients using the Tor Network. Briar can also connect via Wi-Fi or Bluetooth when in local proximity. Briar’s local mesh mode can be useful when internet availability is a problem.
 
-    [Homepage](https://briarproject.org/){ .md-button .md-button--primary }
+    [Homepage](https://briarproject.org/){ .md-button .md-button--primary } [Privacy Policy](https://briarproject.org/privacy-policy/){ .md-button }
 
     ??? downloads
 
@@ -93,30 +94,33 @@ Briar supports perfect forward secrecy by using the Bramble [Handshake](https://
 
     ![Session logo](assets/img/messengers/session.svg){ align=right }
 
-    **Session** is an encrypted instant messenger that uses three random [service nodes](https://getsession.org/blog/onion-requests-session-new-message-routing-solution) to route messages anonymously on the [Oxen Network](https://oxen.io).
+    **Session** is a decentralized messenger with a focus on private, secure, and anonymous communications. Session offers support for direct messages, group chats, and voice calls.
 
-    [Homepage](https://getsession.org/){ .md-button .md-button--primary }
+    Session utilizes the decentralized [Oxen Service Node Network](https://oxen.io/) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
+
+    [Homepage](https://getsession.org/){ .md-button .md-button--primary } [Privacy Policy](https://getsession.org/privacy-policy){ .md-button }
 
     ??? downloads
 
-        - [:fontawesome-brands-windows: Windows](https://getsession.org/windows)
-        - [:fontawesome-brands-apple: macOS](https://getsession.org/mac)
+        - [:fontawesome-brands-windows: Windows](https://getsession.org/download)
+        - [:fontawesome-brands-apple: macOS](https://getsession.org/download)
         - [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/app/id1470168868)
-        - [:fontawesome-brands-linux: Linux](https://www.getsession.org/linux)
-        - [:fontawesome-brands-android: Android](https://fdroid.getsession.org/)
+        - [:fontawesome-brands-linux: Linux](https://getsession.org/download)
         - [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
         - [:pg-f-droid: F-Droid](https://fdroid.getsession.org)
-        - [:fontawesome-brands-github: Source](https://github.com/oxen-io/session-desktop)
+        - [:fontawesome-brands-github: Source](https://github.com/oxen-io)
 
-Session allows for E2EE in one-to-one or closed rooms that allow up to 100 members. Open rooms have no restriction on the number of members, but anyone can join.
+Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. Open groups have no restriction on the number of members, but are open by design.
 
-Session does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy. The key pair for each conversation is not rotated.
+Session does [not](https://getsession.org/blog/session-protocol-technical-information) support perfect forward secrecy, which is when an encryption system automatically and frequently changes the keys it uses to encrypt and decrypt information, such that if the latest key is compromised it exposes a smaller portion of sensitive information.
 
-Session was independently audited in 2020. The protocol is described in a whitepaper.
+Oxen requested an independent audit for Session in March of 2020. The audit [concluded](https://getsession.org/session-code-audit) in April of 2021, “The overall security level of this application is good and makes it usable for privacy-concerned people.”
+
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technicals of the app and protocol.
 
 ## Types of Communication Networks
 
-There are several network architectures commonly used to relay messages between users. These networks can provide different different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
+There are several network architectures commonly used to relay messages between people. These networks can provide different different privacy guarantees, which is why it's worth considering your [threat model](https://en.wikipedia.org/wiki/Threat_model) when making a decision about which app to use.
 
 ### Centralized Networks
 
@@ -136,7 +140,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 **Disadvantages:**
 
 - Can include [restricted control or access](https://drewdevault.com/2018/08/08/Signal.html). This can include things like:
-- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.
+- Being [forbidden from connecting third-party clients](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165) to the centralized network that might provide for greater customization or a better experience. Often defined in Terms and Conditions of usage.
 - Poor or no documentation for third-party developers.
 - The [ownership](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire/), privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.
 - Self hosting requires effort and knowledge of how to set up a service.
@@ -147,7 +151,7 @@ Some self-hosted messengers allow you to set up your own server. Self-hosting ca
 
 Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.
 
-When self-hosted, users of a federated server can discover and communicate with users of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
+When self-hosted, members of a federated server can discover and communicate with members of other servers, although some servers may choose to remain private by being non-federated (e.g., work team server).
 
 **Advantages:**
 
@@ -162,7 +166,7 @@ When self-hosted, users of a federated server can discover and communicate with 
 - Due to the previous point, features can be lacking, or incomplete or working in unexpected ways compared to centralized platforms, such as message relay when offline or message deletion.
 - Some metadata may be available (e.g., information like "who is talking to whom," but not actual message content if E2EE is used).
 - Federated servers generally require trusting your server's administrator. They may be a hobbyist or otherwise not a "security professional," and may not serve standard documents like a privacy policy or terms of service detailing how your data is utilized.
-- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with users on those servers.
+- Server administrators sometimes choose to block other servers, which are a source of unmoderated abuse or break general rules of accepted behavior. This will hinder your ability to communicate with members of those servers.
 
 ### Peer-to-Peer Networks
 
@@ -174,7 +178,7 @@ Clients (peers) usually find each other through the use of a [distributed comput
 
 Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
 
-P2P networks do not use servers, as users communicate directly between each others, and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as users discovery or offline messages relaying, which can benefit from self-hosting.
+P2P networks do not use servers, as peers communicate directly between each other, and hence cannot be self-hosted. However, some additional services may rely on centralized servers, such as user discovery or relaying offline messages, which can benefit from self-hosting.
 
 **Advantages:**
 

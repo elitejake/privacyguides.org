@@ -1,0 +1,40 @@
+name: 🔂 Surge PR Preview
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: write
+    environment: preview
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+          ref: ${{github.event.pull_request.head.ref}}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+          ssh-key: ${{ secrets.ACTIONS_SSH_KEY }}
+          submodules: 'true'
+
+      - name: Set up Python runtime
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.7'
+
+      - name: Deploy to surge.sh
+        uses: afc163/surge-preview@v1
+        with:
+          surge_token: ${{ secrets.SURGE_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          dist: site
+          failOnError: 'true'
+          build: |
+            pip install pipenv
+            pipenv install
+            pipenv run mkdocs build

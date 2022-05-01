@@ -28,7 +28,7 @@ The options listed here are multi-platform and great for creating encrypted back
 
 VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
 
-When encrypting with VeraCrypt, the user has the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest users **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and should stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
 
 Truecrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) and VeraCrypt has also been [audited seperately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
@@ -194,7 +194,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
     ![Kryptor logo](assets/img/encryption-software/kryptor.png){ align=right }
 
-    **Kryptor** is a free and open source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, user friendly alternative to GPG.
+    **Kryptor** is a free and open source file encryption and signing tool that makes use of modern and secure cryptographic algorithms. It aims to be a better version of [age](https://github.com/FiloSottile/age) and [Minisign](https://jedisct1.github.io/minisign/) to provide a simple, easier alternative to GPG.
 
     [Homepage](https://www.kryptor.co.uk){ .md-button .md-button--primary } [Privacy Policy](https://www.kryptor.co.uk/features#privacy){ .md-button }
 
@@ -223,7 +223,7 @@ Tools with command-line interfaces are useful for intergrating [shell scripts](h
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 
-When encrypting with PGP, the user has the option to configure different options in their `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
+When encrypting with PGP, you have the option to configure different options in your `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://www.gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
 !!! tip "Use future defaults when generating a key"
 
@@ -257,7 +257,7 @@ When encrypting with PGP, the user has the option to configure different options
 
     ![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
 
-    **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that assist PGP users on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
+    **GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
 
     [Homepage](https://gpg4win.org){ .md-button .md-button--primary } [Privacy Policy](https://gpg4win.org/privacy-policy.html){ .md-button }
 
@@ -270,13 +270,13 @@ When encrypting with PGP, the user has the option to configure different options
 
 !!! note
 
-    We suggest [Canary Mail](email-clients/#canary-mail) for using PGP with email on iOS devices.
+    We suggest [Canary Mail](email-clients.md#canary-mail) for using PGP with email on iOS devices.
 
 !!! recommendation
 
     ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-    **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS. GPGTools GmbH costs $24€ yearly for their support plan and includes a 30-day trial.
+    **GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail) and macOS. GPG Mail costs $24€ yearly for their support plan and includes a 30-day trial. For more details see the [FAQ](https://gpgtools.org/faq).
 
     We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge base](https://gpgtools.tenderapp.com/kb) for support.
 

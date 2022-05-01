@@ -1,6 +1,9 @@
 ---
 title: "Web Browsers"
 icon: octicons/browser-16
+tags:
+  - HTML5
+  - JavaScript
 ---
 These are our current web browser recommendations and settings. We recommend keeping extensions to a minimum: they have privileged access within your browser, require you to trust the developer, can make you [stand out](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), and [weaken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-UCHNm34/m/lDaXwQhzBAAJ) site isolation.
 
@@ -27,7 +30,7 @@ These are our current web browser recommendations and settings. We recommend kee
         - [:fontawesome-brands-git: Source](https://trac.torproject.org/projects/tor)
 
 !!! warning
-    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other Tor users and your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+    You should **never** install any additional extensions on Tor Browser, including the ones we suggest for Firefox. Browser extensions make you stand out from other people on the Tor network, and make your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 ## Desktop Browser Recommendations
 
@@ -98,7 +101,7 @@ The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of ca
 
 ## Mobile Browser Recommendations
 
-On Android, Mozilla's engine [GeckoView](https://mozilla.github.io/geckoview/) has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196). Firefox on Android also doesn't yet have [HTTPS-Only mode](https://github.com/mozilla-mobile/fenix/issues/16952#issuecomment-907960218) built-in. We do not recommend Firefox or any Gecko based browsers at this time.
+Firefox on Android is still less secure than Chromium-based alternatives: Mozilla's engine [GeckoView](https://mozilla.github.io/geckoview/) has yet to support [site isolation](https://hacks.mozilla.org/2021/05/introducing-firefox-new-site-isolation-security-architecture) or enable [isolatedProcess](https://bugzilla.mozilla.org/show_bug.cgi?id=1565196).
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so there is little reason to use a third-party web browser.
 

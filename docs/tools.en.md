@@ -152,8 +152,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji } [DuckDuckGo](https://duckduckgo.com/)
-- ![Startpage logo](assets/img/search-engines/startpage.svg){ .twemoji } [Startpage](https://www.startpage.com/)
+- ![DuckDuckGo logo](assets/img/search-engines/mini/duckduckgo.svg){ .twemoji } [DuckDuckGo](https://duckduckgo.com/)
+- ![Startpage logo](assets/img/search-engines/mini/startpage.svg#only-light){ .twemoji }![Startpage logo](assets/img/search-engines/mini/startpage-dark.svg#only-dark){ .twemoji } [Startpage](https://www.startpage.com/)
 - ![Mojeek logo](assets/img/search-engines/mini/mojeek.svg){ .twemoji } [Mojeek](https://www.mojeek.com/)
 - ![SearXNG logo](assets/img/search-engines/mini/searxng-wordmark.svg){ .twemoji } [SearXNG](https://searxng.org)
 
@@ -295,8 +295,8 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 <div class="grid cards" markdown>
 
-- ![YubiKeys](assets/img/multi-factor-authentication/yubikey.png){ .twemoji } [YubiKey](https://www.yubico.com/)
-- ![Nitrokey](assets/img/multi-factor-authentication/nitrokey.jpg){ .twemoji } [Nitrokey](https://www.nitrokey.com/)
+- ![YubiKeys](assets/img/multi-factor-authentication/mini/yubico.svg){ .twemoji } [YubiKey](https://www.yubico.com/)
+- ![Nitrokey](assets/img/multi-factor-authentication/mini/nitrokey.svg){ .twemoji } [Nitrokey](https://www.nitrokey.com/)
 - ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji } [Aegis Authenticator](https://getaegis.app/)
 - ![Raivo OTP logo](assets/img/multi-factor-authentication/raivo-otp.png){ .twemoji } [Raivo OTP](https://github.com/raivo-otp/ios-application)
 

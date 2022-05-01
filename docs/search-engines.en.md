@@ -12,23 +12,27 @@ Consider using a [VPN](vpn.md) or [Tor](https://www.torproject.org/) if your thr
 
 !!! recommendation
 
-    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ align=right }
+    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg#only-light){ align=right }
+    ![DuckDuckGo logo](assets/img/search-engines/duckduckgo-dark.svg#only-dark){ align=right }
 
-    **DuckDuckGo** is a popular search engine and is the default for the Tor Browser.
+    **DuckDuckGo** is one of the more mainstream private search engine options. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and many [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features/). The search engine relies on a commercial Bing API to serve most results, but it does use numerous [other sources](https://help.duckduckgo.com/results/sources/) for instant answers and other non-primary results.
 
-    DuckDuckGo uses a commercial Bing API and various [other sources](https://help.duckduckgo.com/results/sources) to provide its search data.
+    While DuckDuckGo’s primary service is its search engine, the company has recently been branching out by offering various other services and products. This includes their web browsers, email relay service, etc.
+
+    DuckDuckGo is the default search engine for the Tor Browser and is one of the few available options on Apple’s Safari browser.
 
     [Website](https://duckduckgo.com){ .md-button .md-button--primary } [:pg-tor:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .md-button } [Privacy Policy](https://duckduckgo.com/privacy){ .md-button }
 
-DuckDuckGo is based in the :flag_us: US. Their [Privacy Policy](https://duckduckgo.com/privacy) states they **do** log your search query, but not your IP or any other identifying information.
+DuckDuckGo is based in the :flag_us: United States. Their [privacy policy](https://duckduckgo.com/privacy) states they **do** log your searches for product improvement purposes, but not your IP address or any other personally identifying information.
 
-DuckDuckGo has a [lite](https://duckduckgo.com/lite) and [html](https://duckduckgo.com/html) only version, both of which [do not require JavaScript](https://help.duckduckgo.com/features/non-javascript) and can be used with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion) (append [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version).
+DuckDuckGo offers two other [versions](https://help.duckduckgo.com/features/non-javascript/) of their search engine, both of which do not require JavaScript. These versions do lack features, however. These versions can also be used in conjunction with their [Tor onion address](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/) by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
 
 ### Startpage
 
 !!! recommendation
 
-    ![Startpage logo](assets/img/search-engines/startpage.svg){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
+    ![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
     **Startpage** is a search engine that provides Google search results. It is a very convenient way to get Google search results without experiencing dark patterns such as difficult captchas or being refused access because you used a [VPN](vpn.md) or [Tor](https://www.torproject.org/download/).
 
@@ -56,16 +60,16 @@ The company is based in the :flag_gb: UK. According to their [Privacy Policy](ht
 
     ![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
 
-    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing information about its users. It is an actively maintained fork of [SearX](https://github.com/searx/searx). There is a [list of public instances](https://searx.space/).
+    **SearXNG** is an open-source, self-hostable, metasearch engine, aggregating the results of other search engines while not storing any information itself. It is an actively maintained fork of [SearX](https://github.com/searx/searx). There is a [list of public instances](https://searx.space/).
 
     [Homepage](https://searxng.org){ .md-button .md-button--primary }
     ??? downloads
 
         - [:fontawesome-brands-github: Source](https://github.com/searxng/searxng)
 
-SearXNG is a proxy between the user and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
+SearXNG is a proxy between you and the search engines it aggregates from. Your search queries will still be sent to the search engines that SearXNG gets its results from.
 
-When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as users looking up illegal content on your instance could draw unwanted attention from authorities.
+When self-hosting, it is important that you have other people using your instance so that the queries would blend in. You should be careful with where and how you are hosting SearXNG, as people looking up illegal content on your instance could draw unwanted attention from authorities.
 
 When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
 
