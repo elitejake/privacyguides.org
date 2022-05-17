@@ -21,6 +21,9 @@ Discover how to privately share your files between your devices, with your frien
         - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
         - [:fontawesome-brands-apple: macOS](https://onionshare.org/#download)
         - [:fontawesome-brands-linux: Linux](https://onionshare.org/#download)
+        - [:fontawesome-brands-freebsd: FreeBSD](https://syncthing.net/downloads/)
+        - [:pg-openbsd: OpenBSD](https://syncthing.net/downloads/)
+        - [:pg-netbsd: NetBSD](https://syncthing.net/downloads/)
         - [:fontawesome-brands-github: Source](https://github.com/onionshare/onionshare)
 
 ### Magic Wormhole
